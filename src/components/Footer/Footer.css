@@ -1,0 +1,44 @@
+.footer {
+    background-color: #323232;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+.left img {
+    width: 168px;
+    height: 48px;
+}
+.line {
+    width: 1px;
+    height: 80%;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.icon {
+    margin-right: 20px;
+}
+.right img {
+   width: 132px;
+   height: 48px;
+   display: flex;
+   justify-content: start;
+}
+
+@media screen and (max-width: 768px) { 
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .icons {
+        display: flex;
+        align-items: center;
+    }
+    .right img {
+        align-items: center;
+        justify-content: center;
+    }
+}
